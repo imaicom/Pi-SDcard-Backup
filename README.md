@@ -11,7 +11,6 @@
 9. 32GB , Calculated as follows: ? byte / (32*10^9)
 10. diskutil unmountDisk /dev/disk3
 11. end of backup
-
 12. Put the copy destination SD card
 13. diskutil unmountDisk /dev/disk3
 14. sudo newfs_msdos -F 16 /dev/disk3
