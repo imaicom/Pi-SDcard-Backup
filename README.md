@@ -9,7 +9,7 @@
 7. type "control-T"
 8. Confirmation of remaining 
 9. 32GB , Calculated as follows: ? byte / 32*10^9
-10. end of copy
+10. end of backup
 11. diskutil unmountDisk /dev/disk3
 12. Put the copy destination SD card
 13. diskutil unmountDisk /dev/disk3
@@ -17,5 +17,5 @@
 15. sudo dd if=~/Desktop/raspi.dmg of=/dev/rdisk3 bs=1m
 16. type "control-T"
 17. 32GB , Calculated as follows: ? byte / 32*10^9
-18. end of copy
-19. 11. diskutil unmountDisk /dev/disk3
+18. end of restore
+19. diskutil unmountDisk /dev/disk3
