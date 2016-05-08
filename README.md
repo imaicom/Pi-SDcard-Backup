@@ -3,7 +3,7 @@
 1. Put a copy the original SD card
 2. Start the Terminal application
 3. diskutil list
-4. Check the device of the SD card ( maybe 3 )
+4. Check the device of the SD card ( maybe /dev/disk3 )
 5. diskutil unmountDisk /dev/disk3
 6. sudo dd if=/dev/disk3 of=~/Desktop/raspi.dmg bs=1m
 7. type "control-T"
