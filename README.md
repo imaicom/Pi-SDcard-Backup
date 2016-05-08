@@ -8,7 +8,7 @@
 6. sudo dd if=/dev/disk3 of=~/Desktop/raspi.dmg bs=1m
 7. type "control-T"
 8. Confirmation of remaining 
-9. 32GB , Calculated as follows: ? byte / 32*10^9
+9. 32GB , Calculated as follows: ? byte / (32*10^9)
 10. end of backup
 11. diskutil unmountDisk /dev/disk3
 12. Put the copy destination SD card
@@ -16,6 +16,6 @@
 14. sudo newfs_msdos -F 16 /dev/disk3
 15. sudo dd if=~/Desktop/raspi.dmg of=/dev/rdisk3 bs=1m
 16. type "control-T"
-17. 32GB , Calculated as follows: ? byte / 32*10^9
+17. 32GB , Calculated as follows: ? byte / (32*10^9)
 18. end of restore
 19. diskutil unmountDisk /dev/disk3
